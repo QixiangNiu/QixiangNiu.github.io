@@ -8,7 +8,7 @@
     <title>Qixiang Niu</title>
     <link rel="icon" type="image/x-icon" href="Biaozhi.ico" />
 
-    <link rel="stylesheet" href="stylesheets/styles.css?v=20260824-4">
+    <link rel="stylesheet" href="stylesheets/styles.css?v=20260824-5">
     <link rel="stylesheet" href="stylesheets/github-light.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
     <!--[if lt IE 9]>
@@ -123,6 +123,7 @@
           <a href="https://orcid.org/0000-0002-2239-2282"><i class="ai ai-fw ai-orcid-square"></i> ORCID</a><br>
           <a href="https://www.researchgate.net/profile/Qixiang-Niu?ev=hdr_xprf"><i class="ai ai-fw ai-researchgate-square"></i> ResearchGate</a><br>
           <a href="https://www.linkedin.com/in/qixiang-niu-840892333/" class="author-social" target="_blank"><i class="fa fa-fw fa-linkedin-square"></i> LinkedIn</a><br>
+          <a href="https://github.com/QixiangNiu" class="author-social" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-github-square"></i> GitHub</a><br>
           <br>
         </div>
         <br>
@@ -443,7 +444,11 @@
 
     <h2><a id="works-in-progress" class="anchor" href="#workinprogress" aria-hidden="true"><span class="octicon octicon-link"></span></a>Patents</h2>
 
-    <div class="paper-entry patent-entry">
+    <details class="paper-group patent-group">
+      <summary><span>Patents as a Principal Inventor</span><small>Listed among the first three inventors &middot; 5 patents</small></summary>
+      <div class="paper-list" id="patent-primary-list">
+
+    <div class="paper-entry patent-entry" data-patent-group="primary">
       <p class="patent-title"><strong class="patent-title-main">A Target Detection Method for an Underwater Integrated Sensing-Communication System Based on AFDM Signals</strong><br>
       <span class="patent-title-zh">一种基于AFDM信号的水下探测通信一体化系统目标检测方法</span><br>
       <span class="patent-meta">Wentao Shi, Qixiang Niu, Lianyou Jing, et al. &middot; Patent application</span></p>
@@ -453,7 +458,7 @@
       <div class="panel"><p>本发明面向复杂水下多径、低信噪比和强杂波环境，构建基于IDAFT与啁啾周期前缀的AFDM一体化发射模型，以抑制多径引起的符号间干扰；接收端采用结合正交投影和能量比统计的加权GLRT检测器，并通过主化极小化方法，在总功率和通信误码率约束下联合优化发射功率与检测权重。该方法可在维持既定虚警率和通信性能的同时，提高弱小或模糊水下目标的检出概率与稳健性。</p></div>
     </div>
 
-    <div class="paper-entry patent-entry">
+    <div class="paper-entry patent-entry" data-patent-group="primary">
       <p class="patent-title"><strong class="patent-title-main">A Method for Designing Integrated Underwater Detection and Communication Signal Waveforms Based on P4 Coding Technology</strong><br>
       <span class="patent-title-zh">一种基于P4编码技术的水下探测通信一体化信号波形设计方法</span><br>
       <span class="patent-meta">Wentao Shi, Qixiang Niu, Qunfei Zhang, and Lianyou Jing &middot; Patent Application No. 202510726139.2</span></p>
@@ -463,7 +468,7 @@
       <div class="panel"><p>本发明将AFDM调制与优化随机扰动P4编码相结合，利用粒子群优化算法确定受限随机相位扰动，使发射波形的宽带模糊函数旁瓣显著降低，并提升多径和多普勒条件下的时延、多普勒及径向速度分辨能力。发射端插入导频以支持信道估计和扰动补偿，通过调节扰动上限，可在探测概率提升与通信误码率损失之间实现灵活权衡。</p></div>
     </div>
 
-    <div class="paper-entry patent-entry">
+    <div class="paper-entry patent-entry" data-patent-group="primary">
       <p class="patent-title"><a class="patent-title-main" href="https://www.webofscience.com/wos/alldb/full-record/DIIDW:202501688B">A Method for Bias Estimation and Classification Fusion Based on Underwater Multistatic Passive Detection</a><br>
       <a class="patent-title-zh" href="https://chn.oversea.cnki.net/KCMS/detail/detail.aspx?dbcode=SCPD&amp;dbname=SCPD202402&amp;filename=CN119167203A">一种基于水下多基地被动探测的偏差估计与分类融合方法</a><br>
       <span class="patent-meta">Wentao Shi, Qixiang Niu, Chengbing He, and Qunfei Zhang &middot; CN119167203A</span></p>
@@ -473,7 +478,7 @@
       <div class="panel"><p>该方法首先利用最大似然估计获得各组被动声呐传感器的随机角度偏差，再通过期望最大化算法按偏差统计特性对传感器组分类，最后在类内和类间实施变步长加权融合。通过将偏差对探测可信度的影响纳入权重设计，可提高多基地声呐网络的目标定位精度和异常节点条件下的稳健性。</p></div>
     </div>
 
-    <div class="paper-entry patent-entry">
+    <div class="paper-entry patent-entry" data-patent-group="other">
       <p class="patent-title"><a class="patent-title-main" href="https://www.webofscience.com/wos/alldb/full-record/DIIDW:2024A4692N">A Method for Designing OFDM Transmission Signals for Integrated Underwater Detection and Communication Based on ZC Sequences</a><br>
       <a class="patent-title-zh" href="https://chn.oversea.cnki.net/KCMS/detail/detail.aspx?dbcode=SCPD&amp;dbname=SCPD202401&amp;filename=CN118694645A">一种基于ZC序列的OFDM水下探测通信一体化发射信号设计方法</a><br>
       <span class="patent-meta">Wentao Shi, Jiahao Zhang, Mingqi Jin, Jiahao Zhang, Qixiang Niu, et al. &middot; CN118694645A</span></p>
@@ -483,7 +488,7 @@
       <div class="panel"><p>该方法在发射端将数字调制数据与等长ZC序列进行逐元素相乘，再经OFDM调制形成ZC-OFDM一体化波形；接收端完成OFDM解调后逐元素去除已知ZC序列，从而恢复通信数据。该设计为OFDM信号兼顾水下探测与通信功能提供了可实现的波形方案。</p></div>
     </div>
 
-    <div class="paper-entry patent-entry">
+    <div class="paper-entry patent-entry" data-patent-group="primary">
       <p class="patent-title"><a class="patent-title-main" href="https://www.webofscience.com/wos/alldb/full-record/DIIDW:2023A7768T">An Integrated Underwater Detection and Communication System</a><br>
       <a class="patent-title-zh" href="https://chn.oversea.cnki.net/KCMS/detail/detail.aspx?dbcode=SCPD&amp;dbname=SCPD202302&amp;filename=CN116865875A">一种水下探测通信一体化系统</a><br>
       <span class="patent-meta">Wentao Shi, Qunfei Zhang, Qixiang Niu, Jun Lu, et al. &middot; CN116865875A</span></p>
@@ -493,7 +498,7 @@
       <div class="panel"><p>该系统由一体化信号发射、信号接收和接收信号处理模块组成，可完成发射泄露抑制、通信信息提取、探测回波检测及参数估计。系统采用收发分置架构，在同一平台上兼顾水下主动探测与通信功能，可降低自发射泄露并提升探测性能和通信效率。</p></div>
     </div>
 
-    <div class="paper-entry patent-entry">
+    <div class="paper-entry patent-entry" data-patent-group="primary">
       <p class="patent-title"><a class="patent-title-main" href="https://www.webofscience.com/wos/alldb/full-record/DIIDW:202345074K">A Method for Designing and Processing Transmission Signals for Integrated Underwater Detection and Communication</a><br>
       <a class="patent-title-zh" href="https://chn.oversea.cnki.net/KCMS/detail/detail.aspx?dbcode=SCPD&amp;dbname=SCPD202301&amp;filename=CN115987744A">一种水下探测通信一体化发射信号设计与处理方法</a><br>
       <span class="patent-meta">Qunfei Zhang, Wentao Shi, and Qixiang Niu &middot; CN115987744B / Application No. 202211360836.3</span></p>
@@ -502,6 +507,13 @@
       <p class="patent-action"><button class="accordion">专利简介</button></p>
       <div class="panel"><p>该方法以广义正弦调频信号作为探测载体，通过基带相位调制嵌入通信信息，使通信功能充分利用探测信号能量。接收端采用改进的单通道盲分离算法恢复独立的探测与通信分量，分别进行通信解码、直达波抑制和目标探测处理，从而在共享发射能量的同时保持探测相关性与通信性能。</p></div>
     </div>
+      </div>
+    </details>
+
+    <details class="paper-group patent-group">
+      <summary><span>Other Patents</span><small>Listed after the first three inventors &middot; 1 patent</small></summary>
+      <div class="paper-list" id="patent-other-list"></div>
+    </details>
       </section>
     </div>
     <script src="javascripts/scale.fix.js"></script>
@@ -516,6 +528,12 @@
     var conferenceOtherPapers = document.querySelectorAll("#conference-primary-list .paper-entry[data-paper-group='other']");
     conferenceOtherPapers.forEach(function(paper) {
       conferenceOtherList.appendChild(paper);
+    });
+
+    var patentOtherList = document.getElementById("patent-other-list");
+    var patentOtherItems = document.querySelectorAll("#patent-primary-list .patent-entry[data-patent-group='other']");
+    patentOtherItems.forEach(function(patent) {
+      patentOtherList.appendChild(patent);
     });
 
     var acc = document.getElementsByClassName("accordion");
