@@ -7,7 +7,7 @@
     <title>Qixiang Niu</title>
     <link rel="icon" type="image/x-icon" href="Biaozhi.ico" />
     
-    <link rel="stylesheet" href="stylesheets/styles.css?v=20260824">
+    <link rel="stylesheet" href="stylesheets/styles.css?v=20260824-3">
     <link rel="stylesheet" href="stylesheets/github-light.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
     <!--[if lt IE 9]>
@@ -88,7 +88,7 @@
         <nav class="site-nav" aria-label="Primary navigation">
           <a class="nav-card active" href="https://QixiangNiu.github.io/"><span class="nav-icon"><i class="fa fa-home"></i></span><span class="nav-label"><strong>Home</strong><small>Profile &amp; interests</small></span></a>
           <a class="nav-card" href="https://QixiangNiu.github.io/research.html"><span class="nav-icon"><i class="fa fa-flask"></i></span><span class="nav-label"><strong>Research</strong><small>Papers &amp; patents</small></span></a>
-          <a class="nav-card" href="https://QixiangNiu.github.io/research/CV.pdf"><span class="nav-icon"><i class="fa fa-file-text-o"></i></span><span class="nav-label"><strong>CV</strong><small>Curriculum vitae</small></span></a>
+          <a class="nav-card" href="https://QixiangNiu.github.io/cv.html"><span class="nav-icon"><i class="fa fa-file-text-o"></i></span><span class="nav-label"><strong>CV</strong><small>Read online</small></span></a>
           <a class="nav-card" href="https://QixiangNiu.github.io/personal.html"><span class="nav-icon"><i class="fa fa-heart-o"></i></span><span class="nav-label"><strong>Personal</strong><small>Life &amp; background</small></span></a>
         </nav>
         <div class="sidebar-label">Connect</div>
@@ -108,7 +108,36 @@
     <p class="site-credit"><small>Hosted on GitHub Pages</small></p>
       </header>
       <section class="content-card home-content">
-      <img class="profile-photo" src="IMG_20250328.jpg" height="265" width="250" alt="Qixiang Niu">
+      <div class="profile-hero">
+        <div class="profile-carousel" aria-label="Profile photo slideshow">
+          <figure class="carousel-slide active"><img src="IMG_20250328.jpg" alt="Qixiang Niu during a visit to Japan"></figure>
+          <figure class="carousel-slide"><img src="profile-secondary.jpg" alt="Portrait of Qixiang Niu outdoors" loading="lazy"></figure>
+          <div class="carousel-shade" aria-hidden="true"></div>
+          <div class="carousel-controls">
+            <button class="carousel-arrow carousel-prev" type="button" aria-label="Previous photo"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+            <div class="carousel-dots" aria-label="Choose a profile photo">
+              <button class="carousel-dot active" type="button" aria-label="Show photo 1" aria-current="true"></button>
+              <button class="carousel-dot" type="button" aria-label="Show photo 2"></button>
+            </div>
+            <button class="carousel-toggle" type="button" aria-label="Pause slideshow"><i class="fa fa-pause" aria-hidden="true"></i></button>
+            <button class="carousel-arrow carousel-next" type="button" aria-label="Next photo"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+          </div>
+        </div>
+        <div class="hero-summary">
+          <div class="hero-eyebrow">Current appointment</div>
+          <h2>AI-powered acoustics and active noise control</h2>
+          <p>Research Fellow at the NTU Digital Signal Processing Lab, working at the intersection of artificial intelligence, acoustic signal processing, and noise reduction.</p>
+          <div class="research-tags" aria-label="Research highlights"><span>AI for Audio</span><span>Active Noise Control</span><span>ISUDC</span><span>ISAC</span></div>
+        </div>
+      </div>
+
+      <div class="affiliation-strip" aria-label="Academic affiliations">
+        <a class="affiliation-card" href="https://www.ntu.edu.sg/"><span class="institution-mark ntu">NTU</span><span><strong>Nanyang Technological University</strong><small>Current appointment</small></span></a>
+        <a class="affiliation-card" href="https://www.uc3m.es/Home"><span class="institution-mark uc3m">UC3M</span><span><strong>Universidad Carlos III de Madrid</strong><small>Visiting research</small></span></a>
+        <a class="affiliation-card" href="https://en.nwpu.edu.cn/"><span class="institution-mark nwpu">NWPU</span><span><strong>Northwestern Polytechnical University</strong><small>Ph.D., M.Eng. &amp; B.Eng.</small></span></a>
+      </div>
+
+      <h2 class="biography-title">Biography</h2>
         
   <p>Qixiang Niu is currently a Research Fellow with the <a href="https://github.com/ntudsp">Digital Signal Processing Lab (NTU DSP Lab)</a> at <a href="https://www.ntu.edu.sg/">Nanyang Technological University (NTU)</a>, Singapore, working under the supervision of <a href="https://ieeexplore.ieee.org/author/37268712600">Prof. Woon-Seng Gan</a>. His current research focuses on artificial intelligence (AI) for audio and active noise control (ANC).</p>
 
@@ -119,7 +148,9 @@
   <p>He received his B.Eng. degree in Information Engineering from NWPU in 2019 and his M.Eng. degree in Underwater Communication and Information Sensing from NWPU in March 2021. During the first year of his master's program, he was granted early admission to doctoral study.</p>
 
   <p>His research interests include AI-based acoustic signal processing, active noise control, integrated systems for underwater detection and communication (ISUDC), integrated sensing and communication (ISAC), underwater acoustic waveform design, sparse channel estimation, direct-path interference suppression, multistatic target localization and information fusion, signal detection and recognition, and the Internet of Vehicles.</p>
+    </section>
     </div>
     <script src="javascripts/scale.fix.js"></script>
+    <script src="javascripts/profile-carousel.js"></script>
   </body>
 </html>
