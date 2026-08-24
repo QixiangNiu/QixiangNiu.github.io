@@ -366,6 +366,16 @@ section > h3 { margin-top: 4px; color: #2b655e; }
 .paper-entry + .paper-entry { margin-top: 14px; }
 .paper-entry > br:last-child { display: none; }
 .paper-entry > p:first-child > a:first-child { color: #286f66; font-size: 15px !important; }
+.patent-entry > .patent-title { margin-bottom: 8px; }
+.patent-title-main {
+  color: #286f66;
+  font-size: 15px;
+  font-weight: 700;
+}
+.patent-title-zh { color: #3f716b; font-weight: 650; }
+.patent-meta { color: var(--muted); font-size: 13px; }
+.patent-action { margin: 4px 0 0; }
+.patent-entry .panel p:last-child { margin-bottom: 0; }
 details.paper-group {
   overflow: hidden;
   border-color: var(--line) !important;
@@ -394,7 +404,7 @@ button.accordion:hover, button.accordion.active {
   border-color: var(--mint-300) !important;
   background: var(--mint-50) !important;
 }
-div.panel[style] {
+div.panel {
   margin: 8px 0 4px !important;
   padding: 14px 16px !important;
   border: 1px solid var(--line) !important;
