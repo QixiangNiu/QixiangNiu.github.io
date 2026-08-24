@@ -308,36 +308,35 @@ section > h3 { margin-top: 4px; color: #2b655e; }
   margin: 0 0 30px;
 }
 .affiliation-card {
-  display: flex;
-  align-items: center;
-  gap: 11px;
+  display: grid;
+  grid-template-rows: 86px auto;
+  align-items: stretch;
+  gap: 12px;
   min-width: 0;
-  padding: 12px;
+  padding: 14px;
   border: 1px solid var(--line);
   border-radius: var(--radius-md);
   background: #fbfdfd;
   color: var(--ink);
+  text-align: center;
 }
 .affiliation-card:hover { border-color: var(--mint-300); background: var(--mint-50); transform: translateY(-2px); box-shadow: var(--shadow-soft); }
-.institution-mark {
-  display: grid;
-  width: 48px;
-  height: 48px;
-  flex: 0 0 48px;
-  place-items: center;
-  border-radius: 15px;
-  color: #fff;
-  font-size: 12px;
-  font-weight: 800;
-  letter-spacing: .04em;
-  box-shadow: inset 0 0 0 1px rgba(255,255,255,.28), 0 5px 12px rgba(35, 73, 76, .12);
+.institution-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  padding: 7px 12px;
+  overflow: hidden;
+  border: 1px solid rgba(197, 222, 217, .75);
+  border-radius: 14px;
+  background: #fff;
 }
-.institution-mark.ntu { background: linear-gradient(145deg, #b32732, #7b1d2a); }
-.institution-mark.uc3m { background: linear-gradient(145deg, #3f8f82, #246a63); }
-.institution-mark.nwpu { background: linear-gradient(145deg, #2276ad, #154f88); }
-.affiliation-card strong, .affiliation-card small { display: block; }
-.affiliation-card strong { margin-bottom: 2px; font-size: 13px; }
-.affiliation-card small { overflow: hidden; color: var(--muted); font-size: 10px; text-overflow: ellipsis; white-space: nowrap; }
+.institution-logo img { display: block; width: auto; max-width: 100%; max-height: 72px; object-fit: contain; }
+.affiliation-copy { min-width: 0; }
+.affiliation-copy strong, .affiliation-copy small { display: block; }
+.affiliation-copy strong { min-height: 38px; margin-bottom: 4px; font-size: 13px; line-height: 1.42; }
+.affiliation-copy small { color: var(--muted); font-size: 10px; }
 .biography-title { margin-top: 6px; }
 .home-content > p {
   padding: 16px 18px;
@@ -383,12 +382,16 @@ details.paper-group {
   background: #fff !important;
   box-shadow: var(--shadow-soft);
 }
+details.paper-group + details.paper-group { margin-top: 12px; }
 details.paper-group > summary {
   padding: 13px 16px !important;
   color: #286f66 !important;
   background: linear-gradient(135deg, var(--mint-50), #f4fafb) !important;
 }
 details.paper-group > summary:hover { background: var(--mint-100) !important; }
+.patent-group > summary span, .patent-group > summary small { display: block; }
+.patent-group > summary span { font-weight: 700; }
+.patent-group > summary small { margin: 3px 0 0 18px; color: var(--muted); font-size: 10px; font-weight: 500; }
 .paper-list { padding: 16px !important; }
 
 button.accordion {
@@ -468,6 +471,10 @@ footer { width: auto; float: none; position: static; }
   .profile-hero { grid-template-columns: minmax(230px, 290px) minmax(0, 1fr); gap: 20px; }
   .hero-summary { padding: 24px; }
   .affiliation-strip { grid-template-columns: 1fr; }
+  .affiliation-card { grid-template-columns: 148px minmax(0, 1fr); grid-template-rows: 78px; align-items: center; text-align: left; }
+  .institution-logo { height: 64px; }
+  .institution-logo img { max-height: 58px; }
+  .affiliation-copy strong { min-height: 0; }
   .cv-reader { height: 80vh; min-height: 680px; }
 }
 
@@ -487,6 +494,8 @@ footer { width: auto; float: none; position: static; }
   .hero-summary { padding: 22px 20px; }
   .hero-summary h2 { font-size: 23px; }
   .affiliation-strip { margin-bottom: 26px; }
+  .affiliation-card { grid-template-columns: 102px minmax(0, 1fr); padding: 11px; }
+  .institution-logo { padding: 5px 8px; }
   .paper-list { padding: 10px !important; }
   .paper-entry { padding: 12px 13px 8px; }
   .cv-content { padding: 18px 12px 12px; }
