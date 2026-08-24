@@ -73,6 +73,29 @@
       div.panel.show {
       display: block !important;
       }
+      details.paper-group {
+        margin: 12px 0 20px;
+        border: 1px solid #e5e5e5;
+        border-radius: 5px;
+        background: #fff;
+      }
+      details.paper-group > summary {
+        cursor: pointer;
+        padding: 10px 12px;
+        color: #267CB9;
+        font-size: 110%;
+        font-weight: bold;
+        background: #f8f8f8;
+      }
+      details.paper-group > summary:hover {
+        background: #f1f1f1;
+      }
+      .paper-list {
+        padding: 14px 14px 0;
+      }
+      .paper-entry {
+        margin-bottom: 8px;
+      }
       .social-row {
         display: flex;
         flex-wrap: wrap;
@@ -119,6 +142,11 @@
     <hr>      
     <h2><a id="published-papers-updated" class="anchor" href="#publications" aria-hidden="true"><span class="octicon octicon-link"></span></a> Published &amp; Forthcoming Papers</h2>
 
+    <details class="paper-group" open>
+      <summary>First-Author &amp; Corresponding-Author Papers</summary>
+      <div class="paper-list" id="journal-primary-list">
+
+    <div class="paper-entry" data-paper-group="other">
     <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://ieeexplore.ieee.org/document/11653533">An Improved RPCA Method for Direct-Path and Multipath Interference Suppression in Bistatic Sonar</a> <br> <a href="https://ieeexplore.ieee.org/author/37089635232">Boheng Wang</a>, <a href="https://ieeexplore.ieee.org/author/37089236361">Xiaodong Cui</a>, <a href="https://ieeexplore.ieee.org/author/37275872400">Qunfei Zhang</a>, <a href="https://ieeexplore.ieee.org/author/37089651843">Qixiang Niu</a>, and <a href="https://ieeexplore.ieee.org/author/37087628624">Jiajie Liu</a> <br> <i>IEEE Sensors Journal</i>, Early Access, 2026. <br><button class="accordion">
       Abstract
     </button>
@@ -135,7 +163,9 @@
   pages={1-1},
   doi={10.1109/JSEN.2026.3721107}}
 </code> </pre> </p></div><br>
+    </div>
 
+    <div class="paper-entry" data-paper-group="primary">
     <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://www.sciencedirect.com/science/article/pii/S1051200425006189">Underwater Passive Sonar Fusion Detection Based on Sensor Bias Estimation and Classification</a> <br> <a href="https://ieeexplore.ieee.org/author/37089651843">Qixiang Niu</a>, <a href="https://ieeexplore.ieee.org/author/37577687500">Wentao Shi</a>, <a href="https://ieeexplore.ieee.org/author/37275872400">Qunfei Zhang</a>, and <a href="https://ieeexplore.ieee.org/author/243390995830945">Dongzhe Zhang</a> <br> <i>Digital Signal Processing</i>, 2026, 168 (Part D):105596. <br><button class="accordion">
       Abstract
     </button>
@@ -153,7 +183,9 @@
   pages={105596},
   doi={10.1016/j.dsp.2025.105596}}
 </code> </pre> </p></div><br>
+    </div>
 
+    <div class="paper-entry" data-paper-group="primary">
     <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://www.cpsjournals.cn/article/id/69a5223de98e222d4080e1a7">Waveform Design and Processing for Underwater Integrated Detection and Communication Based on Affine Fourier Dictionary</a> <br> <a href="https://ieeexplore.ieee.org/author/37089651843">Qixiang Niu</a>, <a href="https://ieeexplore.ieee.org/author/37577687500">Wentao Shi</a>, <a href="https://ieeexplore.ieee.org/author/37275872400">Qunfei Zhang</a>, and <a href="https://ieeexplore.ieee.org/author/37089635232">Boheng Wang</a> <br> <i>Acta Acustica</i>, 2026, 51 (2):501 &ndash; 514. <br><button class="accordion">
       Abstract
     </button>
@@ -172,7 +204,9 @@
   pages={501-514},
   doi={10.12395/0371-0025.2025089}}
 </code> </pre> </p></div><br>
+    </div>
 
+    <div class="paper-entry" data-paper-group="other">
     <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://ieeexplore.ieee.org/document/11192195">Sound Event Localization and Classification Using Wireless Acoustic Sensor Networks in Outdoor Environments</a> <br> <a href="https://ieeexplore.ieee.org/author/243390995830945">Dongzhe Zhang</a>, <a href="https://ieeexplore.ieee.org/author/37578896500">Jianfeng Chen</a>, <a href="https://ieeexplore.ieee.org/author/37087241408">Jisheng Bai</a>, <a href="https://ieeexplore.ieee.org/author/37086690443">Mou Wang</a>, <a href="https://ieeexplore.ieee.org/author/37085792086">Dongyuan Shi</a>, <a href="https://ieeexplore.ieee.org/author/37089651843">Qixiang Niu</a>, and <a href="https://ieeexplore.ieee.org/author/37085407782">Alberto Bernardini</a> <br> <i>IEEE Sensors Journal</i>, 2025, 25 (22):42141 &ndash; 42153. <br><button class="accordion">
       Abstract
     </button>
@@ -191,7 +225,9 @@
   pages={42141-42153},
   doi={10.1109/JSEN.2025.3614680}}
 </code> </pre> </p></div><br>
+    </div>
 
+    <div class="paper-entry" data-paper-group="primary">
     <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://ieeexplore.ieee.org/document/11124251">Joint Optimization of Underwater Acoustic ISUDC Waveform Design and Sparse Channel Estimation Algorithms</a> <br> <a href="https://ieeexplore.ieee.org/author/37089651843">Qixiang Niu</a>, <a href="https://ieeexplore.ieee.org/author/37577687500">Wentao Shi</a>, <a href="https://ieeexplore.ieee.org/author/38490745200">Lianyou Jing</a>, <a href="https://ieeexplore.ieee.org/author/37594482300">Chengbing He</a>, <a href="https://ieeexplore.ieee.org/author/37275872400">Qunfei Zhang</a>, and <a href="https://ieeexplore.ieee.org/author/37086270005">Weijie Tan</a> <br> <i> IEEE Internet of Things Journal </i>, 2025, 12 (20):43756 &ndash; 43771. <br><button class="accordion">
       Abstract
     </button>
@@ -211,7 +247,9 @@
   keywords={Channel estimation;Underwater acoustics;Receivers;Mathematical models;Transmitters;Dispersion;Perturbation methods;Delays;OFDM;Encoding;Affine frequency division multiplexing (AFDM);integrated systems for underwater detection and communication (ISUDC);P4 encoding optimization;sparse channel estimation;underwater doubly dispersive channels},
   doi={10.1109/JIOT.2025.3598477}}
 </code> </pre> </p></div><br>
+    </div>
 
+    <div class="paper-entry" data-paper-group="other">
     <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://ieeexplore.ieee.org/document/11054068">A PUF-Enhanced Fog-Enabled Hierarchical Authentication Protocol for Internet of Vehicles</a> <br> <a href="https://ieeexplore.ieee.org/author/268908541065443">Chunzhi Jia</a>, <a href="https://ieeexplore.ieee.org/author/37086270005">Weijie Tan</a>, <a href="https://ieeexplore.ieee.org/author/461890688976624">Ao Shen</a>, <a href="https://ieeexplore.ieee.org/author/37088508626">Zhen Li</a>, <a href="https://ieeexplore.ieee.org/author/37086385181">Yuling Chen</a>, <a href="https://ieeexplore.ieee.org/author/431271545711040">Rui Zhao</a>, <a href="https://ieeexplore.ieee.org/author/37089651843">Qixiang Niu</a>, and <a href="https://ieeexplore.ieee.org/author/37536346900">Chunguo Li</a> <br> <i>IEEE Internet of Things Journal</i>, 2025, 12 (18):37629 &ndash; 37644. <br><button class="accordion">
       Abstract
     </button>
@@ -230,9 +268,11 @@
   pages={37629-37644},
   doi={10.1109/JIOT.2025.3583822}}
 </code> </pre> </p></div><br>
+    </div>
 
 
         
+    <div class="paper-entry" data-paper-group="primary">
     <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://ieeexplore.ieee.org/document/10422775">An Improved CLEAN Direct-Wave Suppression Algorithm in Integrated System of Underwater Detection and Communication</a> <br> <a href="https://ieeexplore.ieee.org/author/37089651843">Qixiang Niu</a>, <a href="https://ieeexplore.ieee.org/author/37577687500">Wentao Shi</a>, <a href="https://ieeexplore.ieee.org/author/37275872400">Qunfei Zhang</a>, and <a href="https://ieeexplore.ieee.org/author/37089910615">Chenglin Zhang</a> <br> <i>IEEE Sensors Journal</i>, 2024, 24 (6):8503 &ndash; 8516. <br><button class="accordion">
       Abstract
     </button>
@@ -252,8 +292,10 @@
   keywords={Signal processing algorithms;Fading channels;Time-frequency analysis;Sensors;Estimation;Propagation losses;Frequency modulation;Direct-wave suppression;dual base;signal processing;underwater integrated system for detection and communication;underwater multipath},
   doi={10.1109/JSEN.2024.3360274}}
 </code> </pre> </p></div><br>
+    </div>
         
                  
+    <div class="paper-entry" data-paper-group="primary">
     <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/rsn2.12365">Waveform Design and Signal Processing Method for Integrated Underwater Detection and Communication System</a> <br> <a href="https://ieeexplore.ieee.org/author/37089651843">Qixiang Niu</a>, <a href="https://ieeexplore.ieee.org/author/37275872400">Qunfei Zhang</a>, and <a href="https://ieeexplore.ieee.org/author/37577687500">Wentao Shi</a> <br> <i>IET Radar, Sonar &amp; Navigation</i>, 2023, 17 (4):617 &ndash; 627. <br><button class="accordion">
       Abstract
     </button>
@@ -272,6 +314,15 @@
   year={2023},
   publisher={Wiley Online Library}}
 </code> </pre> </p></div><br>
+    </div>
+
+      </div>
+    </details>
+
+    <details class="paper-group">
+      <summary>Other Papers</summary>
+      <div class="paper-list" id="journal-other-list"></div>
+    </details>
 
 
 
@@ -299,6 +350,11 @@
 
     <hr>                    
     <h2><a id="published-papers-updated" class="anchor" href="#publications" aria-hidden="true"><span class="octicon octicon-link"></span></a> Conference Papers</h2>
+    <details class="paper-group" open>
+      <summary>First-Author &amp; Corresponding-Author Papers</summary>
+      <div class="paper-list" id="conference-primary-list">
+
+    <div class="paper-entry" data-paper-group="primary">
     <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://ieeexplore.ieee.org/document/11431764">Underwater Detection and Communication Integrated Waveform Design Based on P4 Encoding</a> <br><a href="https://ieeexplore.ieee.org/author/37089651843">Qixiang Niu</a>, <a href="https://ieeexplore.ieee.org/author/37605153600">David Ramírez</a>, <a href="https://ieeexplore.ieee.org/author/37577687500">Wentao Shi</a>, and <a href="https://ieeexplore.ieee.org/author/37275872400">Qunfei Zhang</a> <br> <i>GLOBECOM 2025 - 2025 IEEE Global Communications Conference</i>, Taipei, Taiwan, 2025, pp. 2607 &ndash; 2612. <br><button class="accordion">
       Abstract
     </button>
@@ -315,7 +371,9 @@
   pages={2607-2612},
   doi={10.1109/GLOBECOM59602.2025.11431764}}
 </code> </pre> </p></div><br>
+    </div>
 
+    <div class="paper-entry" data-paper-group="primary">
     <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://ieeexplore.ieee.org/document/10978131">AFDM-based Integrated System for Underwater Detection and Communication Waveform Design</a> <br><a href="https://ieeexplore.ieee.org/author/37089651843">Qixiang Niu</a>, <a href="https://ieeexplore.ieee.org/author/37577687500">Wentao Shi</a>, <a href="https://ieeexplore.ieee.org/author/37605153600">David Ramírez</a>, <a href="https://ieeexplore.ieee.org/author/38490745200">Lianyou Jing</a>, and <a href="https://ieeexplore.ieee.org/author/37275872400">Qunfei Zhang</a> <br> <i>2025 IEEE Wireless Communications and Networking Conference (WCNC)</i>, Milano, Italy, 2025, pp. 1 &ndash; 6. <br><button class="accordion">
       Abstract
     </button>
@@ -332,8 +390,10 @@
   pages={1-6},
   doi={10.1109/WCNC61545.2025.10978131}}
 </code> </pre> </p></div><br>
+    </div>
 
         
+    <div class="paper-entry" data-paper-group="primary">
     <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://ieeexplore.ieee.org/document/9984531">Integrated Waveform Design Scheme Based on Underwater Detection and Communication</a> <br> <a href="https://ieeexplore.ieee.org/author/37089651843">Qixiang Niu</a>, <a href="https://ieeexplore.ieee.org/author/37275872400">Qunfei Zhang</a>, and <a href="https://ieeexplore.ieee.org/author/37577687500">Wentao Shi</a> <br> <i>2022 IEEE International Conference on Signal Processing, Communications and Computing (ICSPCC)</i>, Xi'an, China, 2022. <br><button class="accordion">
       Abstract
     </button>
@@ -353,6 +413,15 @@
   keywords={Frequency modulation;Chirp modulation;Azimuth;Design methodology;Simulation;Estimation;Peak to average power ratio;Integrated system for detection and communication;waveform design;ambiguity functions;continuous active sonar;target estimation},
   doi={10.1109/ICSPCC55723.2022.9984531}}
 </code> </pre> </p></div><br>
+    </div>
+
+      </div>
+    </details>
+
+    <details class="paper-group">
+      <summary>Other Papers</summary>
+      <div class="paper-list" id="conference-other-list"></div>
+    </details>
 
 
 
@@ -440,6 +509,18 @@ DESCRIPTION OF DRAWING(S) - The drawing shows a flow diagram illustrating the pr
     </div>
     <script src="javascripts/scale.fix.js"></script>
     <script> 
+    var journalOtherList = document.getElementById("journal-other-list");
+    var journalOtherPapers = document.querySelectorAll("#journal-primary-list .paper-entry[data-paper-group='other']");
+    journalOtherPapers.forEach(function(paper) {
+      journalOtherList.appendChild(paper);
+    });
+
+    var conferenceOtherList = document.getElementById("conference-other-list");
+    var conferenceOtherPapers = document.querySelectorAll("#conference-primary-list .paper-entry[data-paper-group='other']");
+    conferenceOtherPapers.forEach(function(paper) {
+      conferenceOtherList.appendChild(paper);
+    });
+
     var acc = document.getElementsByClassName("accordion");
     var i;
 
