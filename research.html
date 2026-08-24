@@ -8,7 +8,7 @@
     <title>Qixiang Niu</title>
     <link rel="icon" type="image/x-icon" href="Biaozhi.ico" />
 
-    <link rel="stylesheet" href="stylesheets/styles.css?v=20260824-3">
+    <link rel="stylesheet" href="stylesheets/styles.css?v=20260824-4">
     <link rel="stylesheet" href="stylesheets/github-light.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
     <!--[if lt IE 9]>
@@ -443,70 +443,65 @@
 
     <h2><a id="works-in-progress" class="anchor" href="#workinprogress" aria-hidden="true"><span class="octicon octicon-link"></span></a>Patents</h2>
 
-    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://www.webofscience.com/wos/alldb/full-record/DIIDW:202501688B">A Method for Bias Estimation and Classification Fusion Based on Underwater Multistatic Passive Detection </a><br>
-    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://chn.oversea.cnki.net/KCMS/detail/detail.aspx?dbcode=SCPD&dbname=SCPD202402&filename=CN119167203A&uniplatform=OVERSEA&v=uhkwdxdvUIwgu1i150oSu1f9TZ7AgH4HEV8ZUsd_T2EZ--Jnk37dL_xgSKF-Hp9c">一种基于水下多基地被动探测的偏差估计与分类融合方法</a> <br> Wentao Shi, Qixiang Niu, Chengbing He, and Qunfei Zhang<br><button class="accordion">
-    Chinese Abstract
-    </button>
-    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> 本发明提出一种基于水下多基地被动探测的偏差估计与分类融合方法,首先获取含有随机角度估计偏差的多组被动声纳传感器定位数据,建立似然函数,通过最大似然估计方法得到各组被动声呐传感器偏差的估计值；其次根据得到的各组被动声呐传感器偏差的估计值,采用最大期望算法,对估计的符合不同正态分布偏差的传感器组进行分类,并通过迭代反推出不同类别的分布参数；最后考虑偏差对被动探测可信度的影响,先对类内各传感器组的观测数据进行变步长加权融合,再对各个分类的融合数据进行变步长加权融合,从而得到目标位置的估计值。本发明提升了多基地声纳网络的目标位置估计精度。 </p></div>
-    <p style="margin:0"><button class="accordion">
-    English Abstract
-        </button>
-    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>NOVELTY - The method involves considering influence of a deviation to a passive detection reliability. Variable step length weighted fusion is performed to observation data of a sensor group in a class. The variable step length is weighted to the fusion data of the sensor group to obtain an estimation value of a target position. A probability function is established. An estimated value of each group of a passive sonar sensor deviation is obtained through a maximum likelihood estimation process. A maximum expected algorithm is adopted according to the estimated value. The estimated sensor group is classified in accordance with different normal distribution deviation.<br>
-USE - Method for facilitating deviation estimation and classification fusion based on underwater multi-base passive detection in an underwater passive target detection application and an underwater monitoring application.<br>
-ADVANTAGE - The method enables improving target position estimation precision of the multi-base sonar network.<br>
-DESCRIPTION OF DRAWING(S) - The drawing shows a flowchart illustrating a method for facilitating deviation estimation and classification fusion based on underwater multi-base passive detection (Drawing includes Non-English language text). </p></div><br>
+    <div class="paper-entry patent-entry">
+      <p class="patent-title"><strong class="patent-title-main">A Target Detection Method for an Underwater Integrated Sensing-Communication System Based on AFDM Signals</strong><br>
+      <span class="patent-title-zh">一种基于AFDM信号的水下探测通信一体化系统目标检测方法</span><br>
+      <span class="patent-meta">Wentao Shi, Qixiang Niu, Lianyou Jing, et al. &middot; Patent application</span></p>
+      <p class="patent-action"><button class="accordion">Patent Description</button></p>
+      <div class="panel"><p>This invention develops an AFDM-based target-detection method for underwater integrated sensing and communication. An IDAFT transmitter with a chirp-periodic prefix suppresses multipath-induced intersymbol interference, while a weighted GLRT separates signal and noise through orthogonal projection and energy-ratio statistics. A majorization-minimization procedure jointly optimizes transmit-power allocation and detector weights under total-power and communication-BER constraints, improving the reliable detection of weak or ambiguous targets in low-SNR, strongly multipath environments without increasing the prescribed false-alarm rate.</p></div>
+      <p class="patent-action"><button class="accordion">专利简介</button></p>
+      <div class="panel"><p>本发明面向复杂水下多径、低信噪比和强杂波环境，构建基于IDAFT与啁啾周期前缀的AFDM一体化发射模型，以抑制多径引起的符号间干扰；接收端采用结合正交投影和能量比统计的加权GLRT检测器，并通过主化极小化方法，在总功率和通信误码率约束下联合优化发射功率与检测权重。该方法可在维持既定虚警率和通信性能的同时，提高弱小或模糊水下目标的检出概率与稳健性。</p></div>
+    </div>
 
-      
+    <div class="paper-entry patent-entry">
+      <p class="patent-title"><strong class="patent-title-main">A Method for Designing Integrated Underwater Detection and Communication Signal Waveforms Based on P4 Coding Technology</strong><br>
+      <span class="patent-title-zh">一种基于P4编码技术的水下探测通信一体化信号波形设计方法</span><br>
+      <span class="patent-meta">Wentao Shi, Qixiang Niu, Qunfei Zhang, and Lianyou Jing &middot; Patent Application No. 202510726139.2</span></p>
+      <p class="patent-action"><button class="accordion">Patent Description</button></p>
+      <div class="panel"><p>This invention combines AFDM modulation with an optimized random-perturbation P4 code (ORP-P4) for integrated underwater detection and communication. Particle-swarm optimization selects bounded phase perturbations that reduce wideband ambiguity-function sidelobes and strengthen delay-Doppler and radial-velocity resolution under multipath and Doppler spread. A pilot sequence supports channel estimation and perturbation compensation, while the perturbation bound provides a tunable trade-off between improved detection probability and communication BER.</p></div>
+      <p class="patent-action"><button class="accordion">专利简介</button></p>
+      <div class="panel"><p>本发明将AFDM调制与优化随机扰动P4编码相结合，利用粒子群优化算法确定受限随机相位扰动，使发射波形的宽带模糊函数旁瓣显著降低，并提升多径和多普勒条件下的时延、多普勒及径向速度分辨能力。发射端插入导频以支持信道估计和扰动补偿，通过调节扰动上限，可在探测概率提升与通信误码率损失之间实现灵活权衡。</p></div>
+    </div>
 
-    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://www.webofscience.com/wos/alldb/full-record/DIIDW:2024A4692N">A Method for Designing OFDM Transmission Signals for Integrated Underwater Detection and Communication Based on ZC Sequences </a><br>
-    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://chn.oversea.cnki.net/KCMS/detail/detail.aspx?dbcode=SCPD&dbname=SCPD202401&filename=CN118694645A&uniplatform=OVERSEA&v=N3ZM8OCclz3_-zcQn9OIisHtOGzQU6xjBLlyNTmouv7yhs_UdhFSo5JMYO2BwLV_">一种基于ZC序列的OFDM水下探测通信一体化发射信号设计方法</a> <br> Wentao Shi, Jiahao Zhang, Mingqi Jin, Jiahao Zhang, Qixiang Niu, et al. <br><button class="accordion">
-    Chinese Abstract
-    </button>
-    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> 本申请是关于一种基于ZC序列的OFDM水下探测通信一体化发射信号设计方法,包括以下步骤：发射端将待发射OFDM信号进行数字调制处理,得到二进制数据序列,并将二进制数据序列,以及与二进制数据序列长度对应的ZC序列进行哈达玛积运算,得到通信码字序列；对通信码字序列进行OFDM调制处理,得到ZC-OFDM一体化调制信号,并将ZC-OFDM一体化调制信号发射到水声信道中；接收端对从水声信道中获取到的ZC-OFDM一体化调制信号进行OFDM解调处理,并进行逐元素运算,去除ZC序列,还原出二进制数据序列。本申请能够弥补当前OFDM信号应用于水下探测通信领域研究成果的不足,同时能够对OFDM信号应用于水下探测通信领域的可行性进行验证。 </p></div>
-    <p style="margin:0"><button class="accordion">
-    English Abstract
-        </button>
-    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>NOVELTY - The method involves performing (S101) digital modulation processing on orthogonal frequency division multiplexing (OFDM) signal to be transmitted to obtain a binary data sequence by a transmitting end. A communication codeword sequence is subjected to OFDM modulation processing to obtain ZC-OFDM integrated modulation signal. OFDM demodulation processing is performed (S103) on the ZC-OFDM integrated modulation signal obtained from the acoustic channel, and element-by-element operation is performed to remove the ZC sequence and restore the binary data sequence by a receiving end. OFDM modulation processing includes serial-to-parallel conversion, inverse time-frequency conversion, parallel-to-serial conversion, adding cyclic prefix and digital-to-analog (D/A) conversion in sequence. OFDM demodulation processing includes analog-to-digital (A/D) conversion, removing cyclic prefix, serial-to-parallel conversion, time-frequency conversion and parallel-to-serial conversion.<br>
-USE - Method for designing integrated OFDM underwater detection communication transmission signal based on ZC sequence.<br>
-ADVANTAGE - The method makes up for the deficiency of current research results in the field of OFDM signals applied to underwater detection communications, and simultaneously verifies the feasibility of applying OFDM signals to the field of underwater detection communication.<br>
-DESCRIPTION OF DRAWING(S) - The drawing shows a flow diagram illustrating the steps of the method for designing integrated OFDM underwater detection communication transmission signal based on ZC sequence. (Drawing includes non-English language text) </p></div><br>
+    <div class="paper-entry patent-entry">
+      <p class="patent-title"><a class="patent-title-main" href="https://www.webofscience.com/wos/alldb/full-record/DIIDW:202501688B">A Method for Bias Estimation and Classification Fusion Based on Underwater Multistatic Passive Detection</a><br>
+      <a class="patent-title-zh" href="https://chn.oversea.cnki.net/KCMS/detail/detail.aspx?dbcode=SCPD&amp;dbname=SCPD202402&amp;filename=CN119167203A">一种基于水下多基地被动探测的偏差估计与分类融合方法</a><br>
+      <span class="patent-meta">Wentao Shi, Qixiang Niu, Chengbing He, and Qunfei Zhang &middot; CN119167203A</span></p>
+      <p class="patent-action"><button class="accordion">Patent Description</button></p>
+      <div class="panel"><p>The method estimates random bearing biases in passive-sonar groups by maximum likelihood, classifies sensor groups with an expectation-maximization procedure, and applies variable-step weighted fusion within and across classes. By accounting for how bias affects detection credibility, it improves target-position accuracy and robustness in multistatic sonar networks.</p></div>
+      <p class="patent-action"><button class="accordion">专利简介</button></p>
+      <div class="panel"><p>该方法首先利用最大似然估计获得各组被动声呐传感器的随机角度偏差，再通过期望最大化算法按偏差统计特性对传感器组分类，最后在类内和类间实施变步长加权融合。通过将偏差对探测可信度的影响纳入权重设计，可提高多基地声呐网络的目标定位精度和异常节点条件下的稳健性。</p></div>
+    </div>
 
-      
-      
-    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://www.webofscience.com/wos/alldb/full-record/DIIDW:2023A7768T">An Integrated Underwater Detection and Communication System </a><br>
-    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://chn.oversea.cnki.net/KCMS/detail/detail.aspx?dbcode=SCPD&dbname=SCPD202302&filename=CN116865875A&uniplatform=OVERSEA&v=FRpkgi9SaCVEMUJNkB4sLftbLaA9aOVqa_442WHn9N9RNZKqqyTKRPxJd-54bcI1">一种水下探测通信一体化系统</a> <br> Wentao Shi, Qunfei Zhang, Qixiang Niu, Jun Lu, et al. <br><button class="accordion">
-    Chinese Abstract
-    </button>
-    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> 本发明公开了一种水下探测通信一体化系统,包括一体化信号发射模块、信号接收模块以及接收信号处理模块；一体化系统发射模块根据一体化波形要求以及所需传输的信息产生信号并发射；信号接收模块接收信号并完成对接收信号的发射泄露抑制；接收信号处理模块完成对接收信号的信息提取,包括通信信号信息提取、探测回波信号的检测与参数估计。本发明在保证正常通信性能的前提下,兼顾目标主动探测功能,采用收发分置方式,通过一体化信号设计、发射泄露抑制、目标探测和水声通信等环节,实现了水下一体化系统的主动探测和通信功能,有效对自发射泄露进行抑制,提高了探测性能和通信效率,能够更好的应对水下探测和通信性能挑战。 </p></div>
-    <p style="margin:0"><button class="accordion">
-    English Abstract
-        </button>
-    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>NOVELTY - The system has an integrated signal transmitting module for generating and transmitting the signal according to an integrated waveform requirement and information to be transmitted. A signal receiving module receives the signal and completes emission leakage suppression of the received signal. A receiving signal processing module performs information extraction of the receiving signal, where the information extraction comprises information of the communication signal, detection and parameter estimation of the detecting echo signal. The integrated waveform design module designs and generates binary phase shift keying (BPSK) signal parameter and generates integrated signal after passing through the waveform generator. The integrated signal is amplified by the power amplifier, and finally the amplified signal is transmitted by the transmitting base array.<br>
-USE - Underwater detection communication integrated system.<br>
-ADVANTAGE - The system ensures the normal communication performance, gives attention to the target active detection function, adopts a receiving and sending separation mode through the integrated signal design. The system realizes the active detection and communication function of the underwater integrated system, effectively inhibits the self-emission leakage, improves the detection performance and communication efficiency and has better deal with the underwater detection and communication performance challenge.<br>
-DETAILED DESCRIPTION - An INDEPENDENT CLAIM is included for network using the underwater detection communication integrated system.<br>
-DESCRIPTION OF DRAWING(S) - The drawing shows a block diagram of an underwater detection communication integrated system. (Drawing includes non-English language text). </p></div><br>
+    <div class="paper-entry patent-entry">
+      <p class="patent-title"><a class="patent-title-main" href="https://www.webofscience.com/wos/alldb/full-record/DIIDW:2024A4692N">A Method for Designing OFDM Transmission Signals for Integrated Underwater Detection and Communication Based on ZC Sequences</a><br>
+      <a class="patent-title-zh" href="https://chn.oversea.cnki.net/KCMS/detail/detail.aspx?dbcode=SCPD&amp;dbname=SCPD202401&amp;filename=CN118694645A">一种基于ZC序列的OFDM水下探测通信一体化发射信号设计方法</a><br>
+      <span class="patent-meta">Wentao Shi, Jiahao Zhang, Mingqi Jin, Jiahao Zhang, Qixiang Niu, et al. &middot; CN118694645A</span></p>
+      <p class="patent-action"><button class="accordion">Patent Description</button></p>
+      <div class="panel"><p>The transmitter combines digitally modulated data with a length-matched Zadoff-Chu sequence through an element-wise product and then performs OFDM modulation to generate an integrated ZC-OFDM waveform. The receiver demodulates the signal and removes the known ZC sequence element by element to recover the transmitted data, providing a practical OFDM-based waveform for joint underwater detection and communication.</p></div>
+      <p class="patent-action"><button class="accordion">专利简介</button></p>
+      <div class="panel"><p>该方法在发射端将数字调制数据与等长ZC序列进行逐元素相乘，再经OFDM调制形成ZC-OFDM一体化波形；接收端完成OFDM解调后逐元素去除已知ZC序列，从而恢复通信数据。该设计为OFDM信号兼顾水下探测与通信功能提供了可实现的波形方案。</p></div>
+    </div>
 
+    <div class="paper-entry patent-entry">
+      <p class="patent-title"><a class="patent-title-main" href="https://www.webofscience.com/wos/alldb/full-record/DIIDW:2023A7768T">An Integrated Underwater Detection and Communication System</a><br>
+      <a class="patent-title-zh" href="https://chn.oversea.cnki.net/KCMS/detail/detail.aspx?dbcode=SCPD&amp;dbname=SCPD202302&amp;filename=CN116865875A">一种水下探测通信一体化系统</a><br>
+      <span class="patent-meta">Wentao Shi, Qunfei Zhang, Qixiang Niu, Jun Lu, et al. &middot; CN116865875A</span></p>
+      <p class="patent-action"><button class="accordion">Patent Description</button></p>
+      <div class="panel"><p>The system integrates waveform generation and transmission, signal reception with transmit-leakage suppression, and joint receive processing for communication-data extraction, echo detection, and parameter estimation. Its separated transmit-and-receive architecture supports active underwater detection and communication on a shared platform while reducing self-transmission leakage and improving sensing and communication efficiency.</p></div>
+      <p class="patent-action"><button class="accordion">专利简介</button></p>
+      <div class="panel"><p>该系统由一体化信号发射、信号接收和接收信号处理模块组成，可完成发射泄露抑制、通信信息提取、探测回波检测及参数估计。系统采用收发分置架构，在同一平台上兼顾水下主动探测与通信功能，可降低自发射泄露并提升探测性能和通信效率。</p></div>
+    </div>
 
-        
-    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://www.webofscience.com/wos/alldb/full-record/DIIDW:202345074K">A Method for Designing and Processing Transmission Signals for Integrated Underwater Detection and Communication </a><br>
-    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://chn.oversea.cnki.net/KCMS/detail/detail.aspx?dbcode=SCPD&dbname=SCPD202301&filename=CN115987744A&uniplatform=OVERSEA&v=YeBHoxv3u72SyqaAPbjwPfoIzvQ1hOuBSvU94OeKciBlcnfrCaBnJayDg416YzYH">一种水下探测通信一体化发射信号设计与处理方法</a> <br> Qunfei Zhang, Wentao Shi, and Qixiang Niu <br><button class="accordion">
-    Chinese Abstract
-    </button>
-    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> 本发明提出了一种水下探测通信一体化发射信号设计与处理方法,充分利用广义正弦调频信号正交性强,分辨率良好的特点,将GSFM信号作为一体化信号的载体；首先利用探测信号与通信信号的基带信号乘积作为一体化信号,使得通信信号充分利用探测信号的能量；然后利用一种改进的单通道盲分离算法,对接收端信号进行分离,得到独立的探测信号和通信信号,最后对分离后的通信信号进行解码,对分离后的探测信号进行直达波信号抵消以及目标探测处理。 </p></div>
-    <p style="margin:0"><button class="accordion">
-    English Abstract
-        </button>
-    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> NOVELTY - The method involves encoding the communication information to be sent, and obtaining the corresponding communication baseband signal through communication signal modulation method. The integrated transmission signal waveform is passed through waveform generator and power amplifier, and is transmitted through transmission matrix. The constant value is added to received signal, and converted into additive signal form to perform normalization processing on obtained additive signal, and whiten the normalized vector data. The blind separation is performed on obtained whitened signal to obtain separation matrix. The obtained separation matrix is multiplied with logarithmic received signal to obtain separated matrix, and restore the separated waveforms to obtain the separated detection signal and communication signal waveform. The separated communication signal is decoded and recovered to obtain communication information. The separated detection signal is used for array signal processing.<br>
-USE - Method for designing and processing integrated transmission signal for research on integrated system of underwater detection and communication (ISUDC) originated from air radar.<br>
-ADVANTAGE - The method enables realizing underwater detection communication integration, and designing the integrated waveform corresponding to the signal processing algorithm for separating integrated signal to respectively obtain the detection and communication signal using the blind separation algorithm under the condition of unknown transmission waveform, so that the signal is separated at the receiving end, and the communication performance and detection performance are ensured. The method ensures the detection effect, and ensures the correlation of the integrated signal.<br>
-DESCRIPTION OF DRAWING(S) - The drawing shows a flow diagram illustrating the process for designing and processing integrated transmission signal. (Drawing includes non-English language text) </p></div><br>
-
-
-
-
-
-      
+    <div class="paper-entry patent-entry">
+      <p class="patent-title"><a class="patent-title-main" href="https://www.webofscience.com/wos/alldb/full-record/DIIDW:202345074K">A Method for Designing and Processing Transmission Signals for Integrated Underwater Detection and Communication</a><br>
+      <a class="patent-title-zh" href="https://chn.oversea.cnki.net/KCMS/detail/detail.aspx?dbcode=SCPD&amp;dbname=SCPD202301&amp;filename=CN115987744A">一种水下探测通信一体化发射信号设计与处理方法</a><br>
+      <span class="patent-meta">Qunfei Zhang, Wentao Shi, and Qixiang Niu &middot; CN115987744B / Application No. 202211360836.3</span></p>
+      <p class="patent-action"><button class="accordion">Patent Description</button></p>
+      <div class="panel"><p>The method uses a generalized sinusoidal frequency-modulated signal as the sensing carrier and embeds communication information through baseband phase modulation. At the receiver, an improved single-channel blind-separation procedure recovers independent sensing and communication components; the communication waveform is decoded, while the sensing waveform undergoes direct-path cancellation and target processing. This enables both functions to share transmit energy while retaining useful sensing correlation and communication performance.</p></div>
+      <p class="patent-action"><button class="accordion">专利简介</button></p>
+      <div class="panel"><p>该方法以广义正弦调频信号作为探测载体，通过基带相位调制嵌入通信信息，使通信功能充分利用探测信号能量。接收端采用改进的单通道盲分离算法恢复独立的探测与通信分量，分别进行通信解码、直达波抑制和目标探测处理，从而在共享发射能量的同时保持探测相关性与通信性能。</p></div>
+    </div>
       </section>
     </div>
     <script src="javascripts/scale.fix.js"></script>
