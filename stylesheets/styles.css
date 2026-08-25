@@ -389,9 +389,6 @@ details.paper-group > summary {
   background: linear-gradient(135deg, var(--mint-50), #f4fafb) !important;
 }
 details.paper-group > summary:hover { background: var(--mint-100) !important; }
-.patent-group > summary span, .patent-group > summary small { display: block; }
-.patent-group > summary span { font-weight: 700; }
-.patent-group > summary small { margin: 3px 0 0 18px; color: var(--muted); font-size: 10px; font-weight: 500; }
 .paper-list { padding: 16px !important; }
 
 button.accordion {
