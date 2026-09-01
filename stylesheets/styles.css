@@ -73,8 +73,16 @@ header {
   backdrop-filter: blur(14px);
   -webkit-font-smoothing: antialiased;
 }
-header h1 { margin-bottom: 8px; }
-header > p:first-of-type, header .role {
+header h1 { margin-bottom: 2px; }
+.chinese-name {
+  margin: 0 0 8px;
+  color: #3f716b;
+  font-family: "Microsoft YaHei", "PingFang SC", "Noto Sans CJK SC", sans-serif;
+  font-size: 17px;
+  font-weight: 650;
+  letter-spacing: .12em;
+}
+header .role {
   color: var(--muted);
   font-size: 14px;
   line-height: 1.5;
@@ -162,7 +170,21 @@ header .social-row br { display: none; }
   line-height: 1.55;
 }
 .contact-card b { display: block; color: var(--ink); margin-bottom: 4px; }
-.site-credit { margin: 0; color: #8a9a9c; font-size: 10px; text-align: center; }
+.site-credit { margin: 0 0 10px; color: #8a9a9c; font-size: 10px; text-align: center; }
+.visitor-counter {
+  display: grid;
+  justify-items: center;
+  gap: 6px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.visitor-counter a { display: inline-flex; line-height: 0; }
+.visitor-counter img { display: block; height: 20px; width: auto; }
 
 section {
   width: auto;
