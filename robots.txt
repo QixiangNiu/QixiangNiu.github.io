@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://qixiangniu.github.io/sitemap.xml
