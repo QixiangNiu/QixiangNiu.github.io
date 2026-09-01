@@ -77,9 +77,9 @@ header h1 { margin-bottom: 2px; }
 .chinese-name {
   margin: 0 0 8px;
   color: #3f716b;
-  font-family: "Microsoft YaHei", "PingFang SC", "Noto Sans CJK SC", sans-serif;
+  font-family: KaiTi, "STKaiti", "Kaiti SC", "FZKai-Z03", serif;
   font-size: 17px;
-  font-weight: 650;
+  font-weight: 400;
   letter-spacing: .12em;
 }
 header .role {
